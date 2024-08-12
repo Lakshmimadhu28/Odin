@@ -1,0 +1,240 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(17 24 39 / 1);
+    color: #fff;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%; /* Adjusted padding for a smaller navbar */
+    height: 60px; /* Reduced height */
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    height: 40px; /* Reduced logo size */
+    width: auto;
+    margin-right: 10px; /* Adjusted margin */
+}
+
+.left h1 {
+    color: #fff;
+    font-size: 1.2rem; /* Reduced font size */
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjusted gap for spacing */
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem; /* Reduced font size */
+    transition: color 0.3s ease;
+}
+
+.right a:hover {
+    color: rgb(19, 221, 107);
+}
+
+.right svg {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    width: 20px; /* Adjusted icon size */
+    height: 20px; /* Adjusted icon size */
+}
+
+.right svg:hover {
+    fill: rgb(19, 221, 107);
+}
+
+.click {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 6px 12px; /* Adjusted padding for a smaller button */
+    font-size: 0.9rem; /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.click:hover {
+    background-color: rgb(20, 149, 56);
+    color: rgb(8, 9, 8);
+}
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: rgb(17 24 39 / 1);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    line-height: 1.6;
+}
+
+.benefits {
+    margin-top: 2rem;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.benefit img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.benefit h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.benefit p {
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1c29;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #202233;
+}
+
+.stat {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #252736;
+}
+
+.detail {
+    width: 45%;
+}
+
+.detail h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #202233;
+}
+
+.contact-text {
+    max-width: 50%;
+}
+
+button {
+    background-color: #f5a623;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #252736;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer button {
+    margin: 0 10px;
+}
+
+
+.footer{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(17 24 39 / 1);
+}
+
+.fotter-box-2{
+    width: 50%;
+    color: white;
+    margin-left: 142px;
+    margin-top: 0px;
+    font-size: 9px;
+
+}
+
+.social-media{
+    width: 100%;
+    border-top: solid;
+    border-top-width: thin;
+    color: #fff;
+    
+}
